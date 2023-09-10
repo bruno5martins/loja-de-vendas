@@ -1,0 +1,62 @@
+.formas-pagamentos img{
+        width: 55px;
+        height: 30px;
+        border-radius: 20px;
+}
+
+
+
+.container-footer{
+        display: flex;
+        justify-content: space-around;
+        padding: 30px;
+        flex-direction: column;
+        background-color: rgb(49, 39, 41);
+        height: 250px;
+        margin-top: 120px;
+        padding: 80px 40px 70px;
+        
+}
+
+@media screen and (min-width:767px) and (max-width:1600px) {
+
+        .container-footer{
+                display: flex;
+                flex-direction: row;
+        }
+        
+        .footer-direita{
+                height: 120px;
+        }
+}
+
+.formas-pagamentos{
+        display: flex;
+        margin: 0 30px;
+        
+}
+
+.formas-pagamentos img{
+        padding: 10px 10px;
+}
+
+.footer-esquerda{
+        display: flex;
+        flex-direction: column;
+}
+
+.footer-direita{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+}
+
+.text-trabalho {
+        color: rgb(18, 16, 16);
+        transition-duration: 0.1s;
+}
+
+.text-trabalho:hover{
+        color: rgb(255,0,55);
+        filter: drop-shadow(0 0 3px rgb(255,0,55 ));
+}
